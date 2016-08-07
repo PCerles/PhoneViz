@@ -21,7 +21,7 @@ var line = d3.line()
 function mOver(d) {
 	d3.select(this)
 	   .style('stroke-width', 4);
-	text.text(d.id);
+	text.text("some number");
 }
 
 d3.csv('data/perfect.csv', function(data) {
